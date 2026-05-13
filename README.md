@@ -1,4 +1,4 @@
-\# ⌨️ Proyecto Keylogger - \[Nombre de tu Herramienta o "Trabajo Parcial"]
+\# ⌨️ Proyecto Keylogger - "Trabajo Parcial"
 
 
 
