@@ -8,7 +8,7 @@
 
 \*\*Universidad Peruana de Ciencias Aplicadas (UPC)\*\*  
 
-\*\*Curso:\*\* Hacking Ético🥵 - Código: 1ABC0001
+\*\*Curso:\*\* Hacking Ético - Código: 1ABC0001
 
 
 
